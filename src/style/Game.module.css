@@ -1,0 +1,60 @@
+.game {
+  width: 100%;
+  height: 100%;
+  display: flex;
+}
+
+.nav {
+  width: 125px;
+  display: flex;
+  padding: 2px;
+}
+
+.buttons {
+  display: flex;
+  flex-direction:row-reverse;
+  justify-content: space-between;
+  padding: 5px;
+}
+
+.question {
+  padding-top: 10px;
+  width: 50rem;
+  height: 20rem;
+}
+
+.resultCard {
+  margin-top: 1rem;
+  margin-left: 1rem;
+  width: 90%;
+}
+
+.loading {
+  display: flex;
+  justify-content: center;
+  margin-top: 20rem
+}
+
+.text {
+  display: flex;
+  justify-content: center;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Dosis:wght@200&display=swap');
+.result {
+  height: 10rem;
+  padding: 2rem;
+  font-family: 'Dosis', sans-serif;
+  background: #24292E;
+  color: aliceblue;
+  display: flex;
+  justify-content: space-between;
+}
+
+@media (max-width: 420px) {
+  .result {
+    font-family: 'Dosis', sans-serif;
+    display: flex;
+    flex-wrap: wrap;
+  }
+}

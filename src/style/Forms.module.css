@@ -1,0 +1,20 @@
+.Form {
+  margin-top: 5%;
+  min-width: 50%;
+  min-height: 50%;
+  background: linear-gradient();
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.Error {
+  border: solid rgb(243, 52, 84) 1px;
+}
+
+@media (max-width: 700px) {
+  .Form h1 {
+    padding-top: 1rem;
+  } 
+}

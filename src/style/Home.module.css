@@ -1,0 +1,15 @@
+.list {
+  display: flex;
+  flex-wrap: wrap;
+  padding-left: 10%;
+}
+
+.card {
+  margin: 1%;
+  width: 150px;
+  height: 170px;
+}
+
+.image{
+ width: 100%;
+}
