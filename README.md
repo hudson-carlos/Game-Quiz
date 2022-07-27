@@ -21,11 +21,13 @@ npm install
     cd src/ && npm start
   ```
   
-## Api usada
+## Api:
 * Para rodar em sua maquina você precisara criar uma chave no site da api em uso.
 * <a>https://quizapi.io/</A>
-* Após que estiver com sua chave da api, você deve adiconalar em uma aquivo .env.
+* Após que estiver com sua chave da api, você deve adiconala em um aquivo .env.
 
   ```
     REACT_APP_KEY_API=Minha_chave_da_api
   ```
+##  Link para o deploy:
+<a>https://project-game-quiz.herokuapp.com/</a>
