@@ -30,4 +30,4 @@ npm install
     REACT_APP_KEY_API=Minha_chave_da_api
   ```
 ##  Link para o deploy:
-<a>https://project-game-quiz.herokuapp.com/</a>
+<a>https://game-quiz-five.vercel.app/</a>
